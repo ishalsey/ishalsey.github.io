@@ -1,0 +1,377 @@
+/*Prep page*/
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #021526;
+}
+main{
+  background-color: white;
+}
+#cover{
+    height: 100%;
+    box-sizing: border-box;
+    font-family: comma-base, sans-serif;
+}
+a{
+    text-decoration: none;
+    display: block;
+}
+img{
+    display: block;
+}
+
+/*Intro page*/
+
+header{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    height: 100vh;
+    background-color: #021526;
+}
+header h1{
+    grid-column: 1/-1;
+    grid-row: 2/5;
+    margin: auto;
+    color: white;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+}
+header h1 span{
+    color: #2E67F8;
+    font-weight: 900;
+    font-style: normal;
+}
+header p{
+    grid-column: 1/-1;
+    grid-row: 3/5;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 76%);
+    padding: 6px 12px;
+    border-radius: 5px;
+}
+header p a{
+    color: #021526;
+    text-decoration: none;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+}
+
+/* About page*/
+
+#about_me{
+    text-align: center;
+    line-height: 30px;
+    padding: 40px;
+    display: grid;
+}
+h2{
+    font-weight: 700;
+    font-size: 30px;
+    margin: 0;
+    font-style: normal;
+    text-align: center;
+}
+#about_me article{
+    margin: 0 auto;
+    width: fit-content;
+    margin-bottom: -25px;
+}
+#about_me .graph{
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+#about_me p{
+    font-size: 10px;
+    text-align: left;
+}
+#about_me ul{
+    margin-top: 30px;
+    list-style-type: none;
+    grid-row: 1/-1;
+    display: block;
+    margin: auto;
+}
+#about_me ul li{
+    font-size: 10px;
+    line-height: 20px;
+}
+h4{
+    font-weight: 500;
+    font-size: 22px;
+    font-style: normal;
+    padding-bottom: 30px;
+    margin: 0;
+}
+ul{
+    margin-top: 0;
+    padding-bottom: 20px;
+    display: inline-block;
+    text-align: center;
+    padding: 0px;
+}
+li{
+    font-weight: 400;
+    font-size: 19px;
+    font-style: normal;
+}
+#about_me .self{
+    width: 200px;
+    margin: 0 auto;
+}
+
+/*Projects*/
+
+.project h2{
+    margin-bottom: 40px;
+}
+.project ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding: 0;
+}
+.project ul li{
+    cursor: pointer;
+}
+.project ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+}
+.content{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.project .content a{
+    margin: 0 auto;
+    width: 100%;
+    box-shadow: 2px 4px rgba(0, 0, 0, 0.47);
+}
+.project a img{
+    width: 100%;
+}
+.content:not(:first-child) {
+    display: none;
+}
+.hide{
+    display: none;
+}
+.popup img{
+    width: 100%;
+}
+.popup{
+    width: 100vw;
+    height: 100vh;
+    background-color: #02152662;
+}
+
+/*footer*/
+
+footer{
+    background-color: #021526;
+    height: 100vh;
+    margin-top: -10px
+}
+footer .arrow{
+    width: 100%;
+}
+footer h2{
+    color: white;
+    padding: 0;
+    font-size: 35px;
+    font-weight: 400px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+footer p{
+    color: #2E67F7;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+footer form{
+    width: fit-content;
+    height: fit-content;
+    margin: 0 auto;
+}
+footer form input[type=text],footer form input[type=email],textarea{
+    background-color: #071E3E;
+    color: white;
+    width: 100%;
+    font-size: 20px;
+}
+footer form input[type=submit]{
+    color: #2E67F7;
+    background-color: #071E3E;
+    border: 1px solid white;
+    margin: 0 auto;
+    display: block;
+    font-size: 20px;
+}
+footer form input::placeholder,textarea::placeholder{
+    color: #2E67F7;
+}
+textarea{
+    border: none;
+}
+
+/* popup */
+
+.popBack{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.7);
+}
+.pop{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+#exit{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+}
+#exit:hover{
+    color: #021526;
+}
+
+/* popup */
+
+.showSlider {
+display: none
+}
+.showSlider img {
+width: 100%;
+}
+.container {
+max-width: 1000px;
+position: relative;
+margin: auto;
+}
+.left, .right {
+cursor: pointer;
+position: absolute;
+top: 50%;
+width: auto;
+padding: 16px;
+margin-top: -22px;
+color: white;
+font-weight: bold;
+font-size: 18px;
+transition: 0.6s ease;
+border-radius: 0 3px 3px 0;
+}
+.right {
+right: 0;
+border-radius: 3px 0 0 3px;
+}
+.left:hover, .right:hover {
+background-color: rgba(115, 115, 115, 0.8);
+}
+.contentBook {
+color: #eff5d4;
+background-color: rgba(179, 179, 179, 0.47);
+font-size: 30px;
+padding: 8px 12px;
+position: absolute;
+top: 0px;
+left: 0px;
+text-align: center;
+}
+.buttonArea li .active {
+background-color: rgba(2, 21, 38, 0.7);
+color: white;
+}
+
+/* Fading animation */
+.fade {
+-webkit-animation-name: fade;
+-webkit-animation-duration: 1.5s;
+animation-name: fade;
+animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+from {
+opacity: .4
+}
+to {
+opacity: 1
+}
+}
+@keyframes fade {
+from {
+opacity: .4
+}
+to {
+opacity: 1
+}
+}
+
+/* tablet */
+
+
+@media only screen and (min-width: 700px){
+    #about_me{
+        gap: 10px;
+        padding: 5px;
+    }
+    main #about_me .graph{
+      margin-top: 50px;
+      margin-bottom: 0px;
+      grid-column: 2/4;
+      grid-row: 2;
+    }
+    .images{
+      display: flex;
+      justify-content: space-between;
+    }
+    #about_me p{
+      grid-column: 1/-1;
+    }
+    .project .grid{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+        gap: 10px;
+    }
+    .pop{
+      width: 300px;
+      height: 450px;
+      left: 0;
+      right: 0;
+      top: 30%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    footer{
+      height: auto;
+      padding-bottom: 10px;
+    }
+}
+
+@media only screen and (min-width: 1000px){
+  #cover{
+    margin: 0 5%;
+  }
+}

@@ -1,0 +1,86 @@
+
+{
+  "information":{
+
+        "0":{
+          "image1":"/images/book1.png",
+          "image2":"/images/Hardcover Book 2.png",
+          "image3":"/images/Hardcover Book 3.png",
+          "contentBook1":"Book 1",
+          "contentBook2":"Book 2",
+          "contentBook3":"Book 3",
+          "head":"Hardcover Books",
+          "paragraph":"This was my book cover project where I had to put together book covers based on The Great Divorce by CS Lewis and it helped me to better put together information on Adobe illustrator, photoshop, and indesign."
+        },
+        "1":{
+          "image1":"/images/Serif Drawings.png",
+          "image2":"/images/serif.png",
+          "image3":"/images/serifRefined.png",
+          "contentBook1":"Sketches",
+          "contentBook2":"Options",
+          "contentBook3":"Runner Up",
+          "head":"Letter Project",
+          "paragraph":"This project was testing out my ability to use space in an interesting way and bring out a focal point. I tried to make interesting negative space in order to make the project look more complete. I also went through may sketches and prototypes and found one that really stuck out to me and followed through on those ones."
+        },
+        "2":{
+          "image1":"/images/cardSketch.png",
+          "image2":"/images/roughCard.png",
+          "image3":"/images/finalCheck.png",
+          "contentBook1":"Sketches",
+          "contentBook2":"Rough Drafts",
+          "contentBook3":"Other Finalists",
+          "head":"Business Card",
+          "paragraph":"The idea of this project was to get me a simple look of what a business card could look like to prepare for making my own future cards. This project let me try something different compared to the regular looks to cards and see what I like. I think the cards I came up with have thier own unique style to them and can be seen as good but they are very different."
+        },
+        "3":{
+          "image1":"/images/posterSketch.png",
+          "image2":"/images/posterRough.png",
+          "image3":"/images/posterColor.png",
+          "contentBook1":"Sketches",
+          "contentBook2":"Rough Drafts",
+          "contentBook3":"Color Variations",
+          "head":"Font Poster",
+          "paragraph":"This was a fun project where I could explore with size a lot better due to the large layout of a poster. This project really helped me to use space in an intersting way and I had a lot of struggle with negative space in this project."
+        },
+        "4":{
+          "image1":"/images/phpUpdate.png",
+          "image2":"/images/phpWeb.png",
+          "image3":"/images/phpCars.png",
+          "contentBook1":"PHP Home Navigation",
+          "contentBook2":"Log-in Page",
+          "contentBook3":"Image Pop-up Page",
+          "head":"PHP Motors Website",
+          "paragraph":"This project focused on putting together a full php project. This was a very difficult project for me because it was the first time using php in a website and there was a lot to learn when it came to making this site. There is still a lot I have to learn about php but it has been a very rewarding experience to put together this site."
+        },
+        "5":{
+          "image1":"/images/weatherForcast.png",
+          "image2":"/images/weatherTop.png",
+          "image3":"/images/weatherEnd.png",
+          "contentBook1":"Json Request",
+          "contentBook2":"Navigation & Resize",
+          "contentBook3":"Iframe & Copyright",
+          "head":"Weather Site",
+          "paragraph":"When I was building this site the focus was learning how to pull json api from a website to give the current weather in a certain area. I also was learning how to resize a page and focus on mobile first."
+        },
+        "6":{
+          "image1":"/images/innTop.png",
+          "image2":"/images/innInfo.png",
+          "image3":"/images/innAbout.png",
+          "contentBook1":"Video Frame",
+          "contentBook2":"Json Pull",
+          "contentBook3":"Basic Information",
+          "head":"Temple Inn",
+          "paragraph":"This page was one of the first projects where I did it all on my own without help doing the js and json. I had a lot of fun trying new things in this project from adding a looping video too adding a map with a location on it. I learned a lot more about JavaScript in this project."
+        },
+        "7":{
+          "image1":"/images/techTop.png",
+          "image2":"/images/techScroll.png",
+          "image3":"/images/techInfo.png",
+          "contentBook1":"Page Top",
+          "contentBook2":"Box Scroll",
+          "contentBook3":"Product Information",
+          "head":"Tech Talk Website",
+          "paragraph":"This was the first website I built when I first started learning HTML and CSS and I included it to show how I have grown from that simple page with little knowledge and grew to some of the other projects that I have created later on in my time in school. I also learned how to make a background static even when the page is moving in front of it."
+        }
+  }
+}
