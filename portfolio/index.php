@@ -82,7 +82,20 @@
         <input type="submit" value="Submit">
       </form>
     </footer>
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/popup.php'; ?>
+    <div class="popBack hide">
+  <div class="pop">
+    <div class="container">
+      <div class="showSlider all1 fade"></div>
+      <div class="showSlider all2 fade"></div>
+      <div class="showSlider all3 fade"></div>
+    <a class="left" href="javascript:void(0);" onclick="nextSlide(-1)">❮</a>
+    <a class="right" href="javascript:void(0);" onclick="nextSlide(1)">❯</a>
+    </div>
+  <a id="exit" href="javascript:void(0);"><i class="fas fa-times-circle"></i></a>
+  <div class="about"></div>
+  </div>
+</div>
+
   </div>
   <script src="java.js"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.js"   integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="   crossorigin="anonymous"></script>
