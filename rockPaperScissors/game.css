@@ -1,0 +1,40 @@
+section{
+  border-radius: 5px;
+  margin: 40px auto;
+}
+.ai, .player{
+  height: 400px;
+  width: 600px;
+  margin: 0 auto;
+  background-color: lightgrey;
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: .5fr 3fr .5fr;
+}
+.player button{
+  grid-row: 3;
+}
+.ai button{
+  grid-row: 1;
+}
+p{
+  grid-column: 2;
+  font-size: 30px;
+  margin: 0px;
+  text-align: center;
+  border: 1px solid black;
+}
+.youDisplay, .aiDisplay{
+  grid-row: 2;
+  grid-column: 1/-1;
+  display: grid;
+  justify-content: center;
+}
+i{
+  font-size: 250px;
+  color: white;
+}
+.aiDisplay i, .ai p, .ai button{
+  transform: rotate(180deg);
+}
